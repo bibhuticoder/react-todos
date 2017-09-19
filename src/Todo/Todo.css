@@ -1,0 +1,40 @@
+.todo{
+    background-color: white;
+    border: solid 0.5px gray;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    float: left;
+    min-width: 100px;
+    min-height: 100px;
+    font-family: "Comic Sans MS";
+
+}
+
+ul{
+    padding-left: 5px !important;
+}
+
+li{
+    list-style: none;
+}
+
+.todo-input{
+    border-style: none;
+    border-bottom-style: dashed;
+    border-bottom-width: thin ;
+    outline: none;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+input[type='checkbox']{
+    vertical-align:middle;
+    width: 20px;
+    height:20px;
+    margin-right:10px;
+    margin-bottom:10px;
+}
